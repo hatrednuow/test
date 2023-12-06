@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container h1 {
+            color: tomato;
+        }
+        .box-container {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .box {
+            display: flex;
+            flex: 1;
+            padding: 200px;
+            border-radius: 30%;
+            margin: 10px;
+        }
+        .red {
+            background-color: tomato;
+        }
+        .green {
+            background-color: yellowgreen;
+        }
+        .blue {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>judul</h1>
+        <div class="box-container">
+            <div class="box red">
+                box 1
+            </div>
+            <div class="box green">
+                box 2
+            </div>
+            <div class="box blue">
+                box 3
+            </div>
+        </div>
+        <span class="box-info">
+            test
+        </span>
+        <div class="button-container">
+            <div class="button blue"></div>
+            <div class="button red"></div>
+            <div class="button green"></div>
+        </div>
+    </div>
+</body>
+</html>
